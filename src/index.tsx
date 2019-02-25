@@ -1,4 +1,5 @@
 import './theme.less';
+import styles from './PersonalStyles.less';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -8,12 +9,9 @@ class Home extends React.Component {
             <>
                 <h1>Home</h1>
                 Works
+                <div className={styles.box} ></div>
             </>
         );
     }
 }
-
-const indexHtmlDOMFound = document.getElementById('app');
-if(indexHtmlDOMFound){
-    ReactDOM.render(<Home />, document.getElementById('app'));
-}
+ReactDOM.render(<Home />, document.getElementById('app'));

@@ -48,7 +48,7 @@ module.exports = (env, argv) => {
                     use: [
                         isProd ? MiniCssExtractPlugin.loader : 'style-loader',
                         'css-loader',
-                        'less-loader'
+                        lessLoader
                     ],
                 },
             ]
