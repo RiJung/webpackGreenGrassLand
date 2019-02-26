@@ -19,7 +19,6 @@ class Home extends React.Component {
                 <Button>Default</Button>
                 <Button type="dashed">Dashed</Button>
                 <Button type="danger">Danger</Button>
-                Works
             < div className={styles.box} ></div >
             </>
         );
