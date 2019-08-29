@@ -32,7 +32,7 @@ module.exports = (env, argv) => {
             contentBase: path.resolve(__dirname, 'public'),
             compress: true,
             historyApiFallback: true,
-            host: "127.0.0.1",
+            host: "0.0.0.0",
             port: 8081,
             watchOptions: {
                 ignored: ['dist']
