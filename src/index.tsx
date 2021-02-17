@@ -2,7 +2,6 @@ import './theme.less';
 import styles from './PersonalStyles.less';
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { Icon, Button } from 'antd';
 
 // tslint:disable:no-any
 function Example(props: any) {
@@ -56,16 +55,6 @@ class Home extends React.Component {
             <>
                 <Example></Example>
                 <h1>Home</h1>
-                <Icon type="home" />
-                <Icon type="setting" theme="filled" />
-                <Icon type="smile" theme="outlined" />
-                <Icon type="sync" spin />
-                <Icon type="smile" rotate={180} />
-                <Icon type="loading" />
-                <Button type="primary">Primary</Button>
-                <Button>Default</Button>
-                <Button type="dashed">Dashed</Button>
-                <Button type="danger">Danger</Button>
                 < div className={styles.box} ></div >
             </>
         );
